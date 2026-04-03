@@ -1,0 +1,55 @@
+ h1{
+        text-align: center;
+        color: white;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        object-fit: cover;
+     }
+    .web-info{
+        background-color: rgba(255, 255, 255, 0.08);
+        color:white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 400px;
+        flex-direction: row;
+        margin: 10px;
+        }
+    .pic{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+
+        
+         }
+         .About{
+            color: white;
+            font-size: 20px;
+            font-family: Poppins;
+            
+        }
+        body{
+           
+        background: linear-gradient(135deg, #1C2E4A 0%, #284B63 100%);
+            
+        }
+        .social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: left;  
+  margin: 20px ;
+}
+
+.social-icons a {
+  color: white; 
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #667eea; 
+}

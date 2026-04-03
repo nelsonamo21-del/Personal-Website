@@ -35,8 +35,7 @@
         body{
            
         background: linear-gradient(135deg, #1C2E4A 0%, #284B63 100%);
-            
-        }
+       }
         .social-icons {
   display: flex;
   gap: 20px;
@@ -52,4 +51,11 @@
 
 .social-icons a:hover {
   color: #667eea; 
+}
+.button{
+  background-color: aquamarine;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px;
+  font-weight: bolder;
 }
